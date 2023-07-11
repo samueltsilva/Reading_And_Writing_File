@@ -100,6 +100,7 @@ int pessoa::getSize() {
 
 int main()
 {
+	std::setlocale(LC_ALL, "pt_BR.UTF-8");
 
 	pessoa p, s, h;
 	int i = 0;
